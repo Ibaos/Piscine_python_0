@@ -3,7 +3,7 @@ import sys
 
 def main():
     """This program accepts two arguments: a string (S) and an integer (N).
-The program should output a list of words from S that have a length greater than N.
+It display the list of words from S that have a length greater than N.
 
 Args:
     string: the string (S)

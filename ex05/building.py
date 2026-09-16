@@ -2,8 +2,12 @@ import sys
 
 
 def main():
-    """This program takes a single string argument and displays the sums of its upper-case characters, lower-case
-characters, punctuation characters, digits, and spaces.
+    """This program takes a single string argument and displays the sums of :
+- upper-case characters
+- lower-case characters
+- punctuation characters
+- digits
+- spaces
 
 Args:
     text: the single string argument

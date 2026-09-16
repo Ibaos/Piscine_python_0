@@ -2,10 +2,10 @@ import sys
 
 
 def main():
-    """This program takes a string as an argument and displays the encoded Morse Code.
+    """This program displays the encoded Morse Code of a string.
 
 Args:
-	text: the string argument
+    text: the string argument
 """
     if len(sys.argv) != 2:
         print("AssertionError: the arguments are bad")
