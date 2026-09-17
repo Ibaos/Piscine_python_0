@@ -3,7 +3,7 @@ import sys
 
 def main():
     """This program accepts two arguments: a string (S) and an integer (N).
-It display the list of words from S that have a length greater than N.
+It displays the list of words from S that have a length greater than N.
 
 Args:
     string: the string (S)
@@ -21,9 +21,9 @@ Args:
     if not length.isdigit():
         print("AssertionError: the arguments are bad")
         sys.exit(1)
-    filtered = lambda word: len(word) > int(length)
-    result = [word for word in string.split() if filtered(word)]
-    print(result)
+    N = int(length)
+    result = list(filter(lambda word: len(word) > N, string.split()))
+    print(list(result))
 
 
 if __name__ == "__main__":
