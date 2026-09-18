@@ -1,4 +1,3 @@
-# import sys
 
 
 def ft_filter(function, iterable):
@@ -16,7 +15,6 @@ is true. If function is None, return the items that are true."""
 
 def main():
     pass
-    
 
 
 if __name__ == "__main__":

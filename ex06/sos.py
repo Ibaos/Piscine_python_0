@@ -10,11 +10,11 @@ Args:
     try:
         if len(sys.argv) != 2:
             raise AssertionError("the arguments are bad")
-    
+
         text = sys.argv[1].upper()
         if not all(c.isalnum() for c in text if not c.isspace()):
             raise AssertionError("the arguments are bad")
-    
+
         MORSE = {
             'A': '.-', 'B': '-...',
             'C': '-.-.', 'D': '-..', 'E': '.',
@@ -31,7 +31,7 @@ Args:
             '0': '-----', ', ': '--..--', '.': '.-.-.-',
             '?': '..--..', '/': '-..-.', '-': '-....-',
             '(': '-.--.', ')': '-.--.-'}
-    
+
         res = []
         for c in text:
             if (c in MORSE):
