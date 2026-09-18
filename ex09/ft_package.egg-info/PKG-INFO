@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: ft_package
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://github.com/bhumeau
+Author: bhumeau
+Author-email: bhumeau@student.42lyon.fr
+License: MIT
+Requires-Python: >=3.10
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
